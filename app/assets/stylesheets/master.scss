@@ -72,10 +72,12 @@ blockquote p {
   display: inline;
 }
 
-.carousel-inner > .carousel-item > img, .carousel-inner > .carousel-item > a > img {
+.carousel-inner > .carousel-item > img, .carousel-inner > .carousel-item > a > img > .carousel-caption { 
   max-height: 550px;
-  width: 100%;
+  width: 70%;
+  margin: auto;
 }
+
 
 .carousel-caption {
   font-family: 'Helvetica Neue', Helvetica, sans-serif;
@@ -83,9 +85,10 @@ blockquote p {
   font-weight: 100;
   text-shadow: rgba(0, 0, 0, 0.95) 2px 2px;
   background-color: rgba(0, 0, 0, 0.5);
-  width: 100%;
-  position: absolute;
+  width: 70%;
   left: 0;
+  right: 0;
+  margin: auto;
 }
 
 .carousel {
