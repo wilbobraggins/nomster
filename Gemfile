@@ -1,5 +1,4 @@
 source 'https://rubygems.org'
-
 git_source(:github) do |repo_name|
   repo_name = "#{repo_name}/#{repo_name}" unless repo_name.include?("/")
   "https://github.com/#{repo_name}.git"
@@ -58,7 +57,7 @@ gem 'bootstrap', '4.0.0.alpha6'
 gem 'simple_form'
 
 source 'https://rails-assets.org' do
-  gem 'rails-assets-tether', '>= 1.3.3' 
+  gem 'rails-assets-tether', '>= 1.1.1' 
 end
 
 gem 'will_paginate', '~> 3.1.0'
@@ -68,3 +67,7 @@ gem 'geocoder'
 gem 'figaro'
 gem 'carrierwave', '~> 1.0'
 gem "fog-aws"
+gem 'webpacker'
+gem 'foreman'
+#gem 'apixu', git: 'https://github.com/apixu/apixu-ruby.git', branch: 'master'
+
